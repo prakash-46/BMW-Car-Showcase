@@ -1,2 +1,2 @@
 # BMW-Car-Showcase
-BMW Car showcase website built with HTML &amp; CSS.
+BMW car showcase website built using HTML & CSS, featuring sports and luxury model pages, responsive layouts, authentication UI, test-drive forms, and an admin dashboard design.
