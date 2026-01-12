@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BMW Luxury Collection</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0e0e0e;
+      color: #eaeaea;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #111;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+
+    nav h1 {
+      color: #1fa3ff;
+      font-weight: 600;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #1fa3ff;
+    }
+
+    /* Header Section */
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    header h2 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    /* Car Grid */
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      padding: 60px 50px;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .car-card {
+      background-color: #1b1b1b;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .car-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .car-info {
+      padding: 20px;
+    }
+
+    .car-info h3 {
+      color: #1fa3ff;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .car-info p {
+      font-size: 15px;
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: #111;
+      color: #666;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>BMW</h1>
+    <div>
+      <a href="Home.html">Home</a>
+    </div>
+  </nav>
+
+  <header>
+    <h2>BMW Luxury Collection</h2>
+    <p>Experience the elegance, performance, and innovation of BMW’s finest luxury vehicles.</p>
+  </header>
+
+  <section class="car-grid">
+    <!-- Sample Car Card -->
+    <div class="car-card">
+      <img src="https://wallpapercave.com/wp/wp9610308.jpg" alt="BMW 3 Series" />
+      <div class="car-info">
+        <h3>BMW 3 Series</h3>
+        <p>Refined luxury in a compact sedan—crafted for precision, performance, and comfort.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://w0.peakpx.com/wallpaper/515/519/HD-wallpaper-2021-bmw-m5-competition-5-series-sedan-turbo-v8-car.jpg" alt="BMW 5 Series" />
+      <div class="car-info">
+        <h3>BMW 5 Series</h3>
+        <p>Dynamic executive luxury with a bold presence and smooth sophistication.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://w0.peakpx.com/wallpaper/717/853/HD-wallpaper-bmw-7-series-m7.jpg" alt="BMW 7 Series" />
+      <div class="car-info">
+        <h3>BMW 7 Series</h3>
+        <p>The pinnacle of prestige—innovative luxury in BMW’s flagship sedan.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://www.hdcarwallpapers.com/download/bmw_x7_xdrive40d_m_sport_poldo_dog_couture_2024-3840x2160.jpg" alt="BMW X7" />
+      <div class="car-info">
+        <h3>BMW X7</h3>
+        <p>A majestic three-row SUV built for the elite—space, elegance, and innovation combined.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://i.pinimg.com/736x/5e/cd/ec/5ecdec557937e81f6697b5b323f11d31.jpg" alt="BMW i4" />
+      <div class="car-info">
+        <h3>BMW i4</h3>
+        <p>All-electric Gran Coupé offering silent speed and upscale driving luxury.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://w0.peakpx.com/wallpaper/17/169/HD-wallpaper-bmw-i7-m70-xdrive-2024.jpg" alt="BMW i7" />
+      <div class="car-info">
+        <h3>BMW i7</h3>
+        <p>BMW’s most luxurious EV—crafted for those who demand comfort, class, and innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BMW Luxury Series. Designed for premium automotive experiences.
+  </footer>
+
+</body>
+</html>

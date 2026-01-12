@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMW Admin Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    header {
+      background-color: #1fa3ff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav {
+      background-color: #1e1e1e;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #1fa3ff;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    h2 {
+      color: #1fa3ff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #1c1c1c;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #444;
+    }
+
+    th {
+      background-color: #2a2a2a;
+      color: #1fa3ff;
+    }
+
+    tr:hover {
+      background-color: #2f2f2f;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e1e1e;
+      color: #666;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BMW Admin Dashboard</h1>
+  </header>
+
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="ee.html">Explore Data</a>
+    <a href="Registeration.html">Test Drive</a>
+    <a href="signup.html">Users</a>
+  </nav>
+
+  <div class="container">
+    <h2>Collected Data</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Model</th>
+          <th>Type</th>
+          <th>Gear</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prakash</td>
+          <td>prakash@gmail.com</td>
+          <td>9876543210</td>
+          <td>BMW X5</td>
+          <td>Luxury</td>
+          <td>Automatic</td>
+          <td>2025-08-01</td>
+          <td>19:30</td>
+        </tr>
+        <tr>
+          <td>Riya</td>
+          <td>riya@example.com</td>
+          <td>9123456780</td>
+          <td>BMW i7</td>
+          <td>Sports</td>
+          <td>Manual</td>
+          <td>2025-08-01</td>
+          <td>19:45</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 BMW Admin Panel
+  </div>
+</body>
+</html>

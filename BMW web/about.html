@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About BMW - Premium Edition</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-image: url('https://www.bmw.com/etc.clientlibs/ds2-webcomponents/clientlibs/clientlib-base/resources/images/og-image-default.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 100vh;
+      overflow: auto;
+    }
+
+    .overlay {
+      background-color: rgb(0, 0, 0);
+      height: 100%;
+      width: 100%;
+      padding-top: 60px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00aaff;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: 20px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+      color: #00aaff;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .content h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .content p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">BMW</div>
+    <div>
+      <a href="Home.html">Home</a>
+    </div>
+  </nav>
+
+  <div class="overlay">
+    <header>
+      <h1>The Ultimate Driving Machine</h1>
+    </header>
+    <div class="content" id="about">
+      <h2>About Us</h2>
+      <p>
+        Bayerische Motoren Werke AG, or BMW, is a world-renowned premium automobile manufacturer headquartered in Munich, Germany. Founded in 1916, BMW has consistently set the standard in automotive innovation, engineering excellence, and design.
+      </p>
+      <p>
+        Known for crafting performance-driven luxury vehicles, BMW combines state-of-the-art technology with an iconic design philosophy. From the sporty 3 Series to the electrifying i Series and the luxury of the 7 Series, BMW delivers unmatched quality across its entire lineup.
+      </p>
+      <p>
+        At BMW, our mission is to create the ultimate driving experience while advancing sustainable mobility. Join us as we shape the future of premium mobility.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

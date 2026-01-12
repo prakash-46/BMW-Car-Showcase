@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Explore BMW</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+        body {
+            background-image: url('https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?cs=srgb&dl=pexels-trace-707046.jpg&fm=jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .overlay {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.396);
+            padding: 30px 40px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(19, 19, 19, 0.992);
+        }
+        h1, h2, h4, p {
+            text-align: center;
+            margin-bottom: 10px;
+            color: black;
+        }
+        form table {
+            width: 100%;
+        }
+        td {
+            padding: 10px;
+            color: black;
+        }
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+        input[type="radio"] {
+            margin: 0 5px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1a73e8;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0059c1;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .links a:hover{
+            color: #0059c1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>EXPLORE THE WORLD OF BMW</h1>
+    <h2>EXPERIENCE INNOVATION AND PERFORMANCE</h2>
+    <h4>Discover More About Your Dream BMW</h4>
+    <p>BMW offers you a new dimension of driving experience. Explore models, technologies, and design philosophies.</p>
+    <p>Whether you're into performance, luxury, or sustainability — BMW has something for everyone.</p>
+
+    <div class="overlay">
+        <div class="form-container">
+            <h2>BMW Explore Interest Form</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>Full Name</td>
+                        <td><input type="text" placeholder="Your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td><input type="email" placeholder="Your Email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Interested Segment</td>
+                        <td>
+                            <input type="radio" name="segment" value="Electric">Electric
+                            <input type="radio" name="segment" value="Luxury">Luxury
+                            <input type="radio" name="segment" value="Performance">Performance
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Preferred BMW Model</td>
+                        <td>
+                            <select required>
+                                <option value="">Choose Model</option>
+                                <option>BMW 3Series</option>
+                                <option>BMW 5Series</option>
+                                <option>BMW 7Series</option>
+                                <option>BMW X3</option>
+                                <option>BMW X5</option>
+                                <option>BMW X7</option>
+                                <option>BMW M3</option>
+                                <option>BMW i3</option>
+                                <option>BMW i4</option>
+                                <option>BMW i5</option>
+                                <option>BMW i7</option>>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Would you like a brochure?</td>
+                        <td>
+                            <input type="radio" name="brochure" value="Yes">Yes
+                            <input type="radio" name="brochure" value="No">No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="Clear"></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+            <div class="links">
+                <a href="Home.html">Home</a> |
+                <a href="https://www.instagram.com/bmw">Instagram</a> |
+                <a href="https://youtube.com/@bmw">YouTube</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

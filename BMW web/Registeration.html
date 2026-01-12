@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            color: black; /* Default text color */
+        }
+        body {
+            background-image: url('https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?cs=srgb&dl=pexels-trace-707046.jpg&fm=jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .overlay {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.396);
+            padding: 30px 40px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(19, 19, 19, 0.992);
+        }
+        h1, h2, h4, p {
+            text-align: center;
+            margin-bottom: 10px;
+            color: black;
+        }
+        form table {
+            width: 100%;
+        }
+        td {
+            padding: 10px;
+            color: black;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+        input[type="radio"] {
+            margin: 0 5px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1a73e8;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0059c1;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MILESTONES IN BMW LIGHTING DESIGN</h1>
+    <h2>STAY UP TO DATE WITH BMW</h2>
+    <h4>THE BMW PODCAST CHANGING LANES</h4>
+    <p>Changing Lanes is the official podcast from BMW. Find out more about sustainability, innovation, technology, mobility and the latest trends.</p>
+    <p>Experience your BMW driving skills for your test drive in entertainment and luxury for your support.</p>
+
+    <div class="overlay">
+        <div class="form-container">
+            <h2>BMW Test Drive Registration</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" placeholder="Enter your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="number" placeholder="Enter your Number" required></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail ID</td>
+                        <td><input type="email" placeholder="Enter your E-mail ID" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gear</td>
+                        <td>
+                            <input type="radio" name="gear" value="Manual">Manual
+                            <input type="radio" name="gear" value="Automatic">Automatic
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Choose your Model</td>
+                        <td>
+                            <select required>
+                                <option value="">Select Model</option>
+                                <option>BMW 3Series</option>
+                                <option>BMW 5Series</option>
+                                <option>BMW 7Series</option>
+                                <option>BMW X3</option>
+                                <option>BMW X5</option>
+                                <option>BMW X7</option>
+                                <option>BMW M3</option>
+                                <option>BMW i3</option>
+                                <option>BMW i4</option>
+                                <option>BMW i5</option>
+                                <option>BMW i7</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>
+                            <input type="radio" name="type" value="Sports">Sports
+                            <input type="radio" name="type" value="Luxury">Luxury
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+            <div class="links">
+                <a href="Home.html">Home</a> |
+                <a href="https://www.instagram.com/bmw">Instagram</a> |
+                <a href="https://youtube.com/@bmw">YouTube</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BMW Sports Cars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0a0a0a;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav h2 {
+      color: #1fa3ff;
+      margin: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1fa3ff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0 20px;
+    }
+
+    header h1 {
+      color: #1fa3ff;
+    }
+
+    .car-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .car-card {
+      background: #1c1c1c;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s;
+    }
+
+    .car-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .car-content {
+      padding: 20px;
+    }
+
+    .car-content h2 {
+      color: #1fa3ff;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .car-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>BMW</h2>
+    <div>
+      <a href="Home.html">Home</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>BMW Sports Cars</h1>
+    <p>Explore BMW’s high-performance sports models</p>
+  </header>
+
+  <div class="car-container">
+
+    <!-- M3 -->
+    <div class="car-card">
+      <img src="https://c4.wallpaperflare.com/wallpaper/1011/986/469/car-vector-bmw-e92-m3-wallpaper-preview.jpg" alt="BMW M3">
+      <div class="car-content">
+        <h2>BMW M3</h2>
+        <p>Track-ready sports sedan with up to 503 hp and aggressive design.</p>
+      </div>
+    </div>
+
+    <!-- M4 -->
+    <div class="car-card">
+      <img src="https://c4.wallpaperflare.com/wallpaper/216/705/204/bmw-m4-cs-g82-2024-hd-wallpaper-preview.jpg" alt="BMW M4">
+      <div class="car-content">
+        <h2>BMW M4</h2>
+        <p>Sport coupé built for thrilling performance and precise handling.</p>
+      </div>
+    </div>
+
+    <!-- i4 -->
+    <div class="car-card">
+      <img src="https://i.pinimg.com/736x/5e/cd/ec/5ecdec557937e81f6697b5b323f11d31.jpg" alt="BMW i4">
+      <div class="car-content">
+        <h2>BMW i4</h2>
+        <p>Electric Gran Coupé with the style of a sport sedan and up to 536 hp.</p>
+      </div>
+    </div>
+
+    <!-- i5 -->
+    <div class="car-card">
+      <img src="https://www.hdcarwallpapers.com/download/bmw_i5_m_sport_2023_8k-3840x2160.jpg" alt="BMW i5">
+      <div class="car-content">
+        <h2>BMW i5</h2>
+        <p>All-electric version of the 5 Series—sporty, smooth, and silent.</p>
+      </div>
+    </div>
+
+    <!-- i7 -->
+    <div class="car-card">
+      <img src="https://w0.peakpx.com/wallpaper/17/169/HD-wallpaper-bmw-i7-m70-xdrive-2024.jpg" alt="BMW i7">
+      <div class="car-content">
+        <h2>BMW i7</h2>
+        <p>BMW’s most luxurious electric sedan with powerful sport mode.</p>
+      </div>
+    </div>
+
+  </div>
+  
+
+</body>
+</html>
